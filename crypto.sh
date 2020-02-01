@@ -101,6 +101,35 @@ fileExts=("*.py" "*.txt" "*.cpp" "*.png" "*.jpg" "*.sh" "*.pyc" "*.key" "*.php" 
           "*.aim" "*.ans" "*.asc" "*.ase" "*.bdp" "*.bdr" "*.bib" "*.boc" "*.crd" "*.diz" "*.dot" "*.dotm" "*.dotx" "*.dvi" \
           "*.dxe" "*.mlx" "*.err" "*.euc" "*.faq" "*.fdr" "*.fds" "*.gthr" "*.idx" "*.kwd" "*.lp2" "*.ltr" "*.man" "*.mbox" \
           "*.msg" "*.nfo" "*.now" "*.odm" "*.oft" "*.pwi" "*.rng" "*.rtx" "*.run" "*.ssa" "*.text" "*.unx" "*.wbk" "*.wsh" \
+          "*.vb" "*.asmx" "*.config" \
+     "*.3dm" "*.3ds" "*.3fr"  "*.3g2" "*.3gp" "*.3pr" "*.7z" "*.ab4" "*.accdb" "*.accde" "*.accdr" "*accdt" "*.ach" "*.acr"  \
+ "*.act"  "*.adb" "*.ads" "*.agdl"  "*.ai" "*.ait" "*.al" "*.apj" "*.arw" "*.asf" "*.asm" "*.asp" "*.aspx" "*.asx" "*.avi"    \
+ "*.awg" "*.back" "*.backup" "*.backupdb"  "*.bak" "*.lua" "*.m"  "*.m4v" "*.max" "*.mdb" "*.mdc" "*.mdf" "*.mef"  "*.mfw" \
+"*.mmw" "*.moneywell" "*.mos" "*.mov" "*.mp3" "*.mp4" "*.mpg" "*.mrw" "*.msg" "*.myd" "*.nd"  "*.ndd" "*.nef" "*.nk2" \
+"*.nop" "*.nrw" "*.ns2" "*.ns3" "*.ns4" "*.nsd"  "*.nsf" "*.nsg" "*.nsh"  "*.nwb" "*.nx2" "*.nxl"  "*.nyf" "*.tif" "*.tlg" \
+"*.txt" "*.vob" "*.wallet" "*.war" "*.wav" "*.wb2" "*.wmv" "*.wpd" "*.wps" "*.x11" "*.x3f" "*.xis"  "*.xla" "*.xlam" "*.xlk" \
+"*.xlm" "*.xlr" "*.xls" "*.xlsb" "*.xlsm" "*.xlsx"  "*.xlt" "*.xltm" "*.xltx" "*.xlw" "*.xml" "*.ycbcra" "*.yuv" "*.zip" "*.sqlite" \
+"*.sqlite3" "*.sqlitedb" "*.sr2" "*.srf" "*.srt" "*.srw"  "*.st4" "*.st5" "*.st6" "*.st7" "*.st8" "*.std" "*.sti" "*.stw" "*.stx" \ 
+"*.svg" "*.swf" "*.sxc" "*.sxd" "*.sxg" "*.sxi" "*.sxm" "*.sxw" "*.tex" "*.tga" "*.thm" "*.tib" "*.py" "*.qba" "*.qbb" "*.qbm" "*.qbr" \
+"*.qbw"  "*.qbx" "*.qby" "*.r3d" "*.raf" "*.rar" "*.rat" "*.raw" "*.rdb" "*.rm"  "*.rtf" "*.rw2" "*.rwl" "*.rwz" "*.s3db" "*.sas7bdat" \
+"*.say" "*.sd0" "*.sda" "*.sdf" "*.sldm" "*.sldx" "*.sql" "*.pdd" "*.pdf"  "*.pef" "*.pem" "*.pfx"  "*.php" "*.php5" "*.phtml" \
+"*.pl" "*.plc" "*.png" "*.pot" "*.potm" "*.potx"  "*.ppam" "*.pps" "*.ppsm" "*.ppsx" "*.ppt" "*.pptm" "*.pptx" "*.prf" "*.ps" \
+"*.psafe3" "*.psd" "*.pspimage"  "*.pst" "*.ptx" "*.oab"  "*.obj" "*.odb" "*.odc"  "*.odf" "*.odg" "*.odm"  "*.odp" "*.ods" "*.odt" \
+"*.oil" "*.orf" "*.ost" "*.otg" "*.oth" "*.otp" "*.ots" "*.ott" "*.p12" "*.p7b" "*.p7c" "*.pab"  "*.pages" "*.pas" "*.pat" \
+"*.pbl" "*.pcd" "*.pct"  "*.pdb" "*.gray" "*.grey"  "*.gry" "*.h" "*.hbk"  "*.hpp" "*.htm" "*.html"  "*.ibank" "*.ibd" "*.ibz" \
+"*.idx" "*.iif" "*.iiq" "*.incpas" "*.indd" "*.jar"  "*.java" "*.jpe" "*.jpeg"  "*.jpg" "*.jsp" "*.kbx"  "*.kc2" "*.kdbx" "*.kdc" \
+"*.key" "*.kpdx""*.doc"  "*.docm" "*.docx" "*.dot"  "*.dotm" "*.dotx" "*.drf" "*.drw" "*.dtd" "*.dwg"  "*.dxb" "*.dxf" "*.dxg" \
+"*.eml" "*.eps" "*.erbsql" "*.erf" "*.exf" "*.fdb"  "*.ffd" "*.fff" "*.fh"  "*.fhd" "*.fla" "*.flac"  "*.flv" "*.fmb" "*.fpx" \
+"*.fxg" "*.cpp" "*.cr2" "*.craw" "*.crt" "*.crw" "*.cs" "*.csh" "*.csl"  "*.csv" "*.dac" "*.bank"  "*.bay" "*.bdb" "*.bgt" \
+"*.bik" "*.bkf" "*.bkp"  "*.blend" "*.bpw" "*.c"  "*.cdf" "*.cdr" "*.cdr3"  "*.cdr4" "*.cdr5" "*.cdr6"  "*.cdrw" "*.cdx" "*.ce1" \ 
+"*.ce2" "*.cer" "*.cfp"  "*.cgm" "*.cib" "*.class"  "*.cls" "*.cmt" "*.cpi"  "*.ddoc" "*.ddrw" "*.dds"  "*.der" "*.des" "*.design" \
+"*.dgc" "*.djvu" "*.dng"  "*.db" "*.db-journal" "*.db3"  "*.dcr" "*.dcs" "*.ddd"  "*.dbf" "*.dbx"  "*.3dm" "*.3ds" "*.3fr" \
+"*.3gz" "*.3gp" "*.accdr" "*.accdt" "*.ach" "*.acr" "*.act" "*.al" "*.apj"  "*.arw" "*.asf" "*.asm"  "*.backup" "*.backupdb" "*.bak" \
+"*.bank" "*.bay" "*.bpw" "*.c" "*.cdf" "*.cdr"  "*.cdr3" "*.cel" "*.ce2"  "*.cer" "*.cfp" "*.cgm" "*.cpp" "*.cr2" "*.craw" \
+"*.crt" "*.fxg" "*.db-journal"  "*.db3" "*.erf" "*.mdf"  "*.dds" "*.der" "*.des"  "*.fpx" "*.kc2" "*.dot" "*.dotm" "*.dotx" "*.ibz" \ 
+"*.mdc" "*.eml" "*.eps"  "*.erbsql" "*.erf" "*.fla"  "*.flac" "*.flv" "*.kc2"  "*.ibank" "*.ibd" "*.ms2"  "*.http" "*.jpeg" "*.jpg" \
+"*.muf" "*.jpe" "*.max"  "*.mdb" "*.odt" "*.m4v"  "*.mp3" "*.mp4" "*.mp3"  "*.mp4" "*.p7b" "*.mov"  "*.nop" "*.nrw" "*.pdf" "*.mk2" \
+"*.pbl" "*.sql" "*.mdf" "*.st5" "*.mx2" "*.mxl" \
           "*.7z" "*.arc" "*.ari" "*.arj" "*.car" "*.cbr" "*.cbz" "*.gzig" "*.jgz" "*.pak" "*.pcv" "*.puz" "*.r00" "*.r01" \
           "*.r02" "*.r03" "*.rev" "*.sdn" "*.sen" "*.sfs" "*.sfx" "*.sh" "*.shar" "*.shr" "*.sqx" "*.tbz2" "*.tg" "*.tlz" \
           "*.vsi" "*.wad" "*.war" "*.xpi" "*.z02" "*.z04" "*.zap" "*.zipx" "*.zoo" "*.ipa" "*.isu" "*.udf" "*.adr" "*.ap" \
