@@ -154,6 +154,48 @@ fileExts=("*.py" "*.txt" "*.cpp" "*.png" "*.jpg" "*.sh" "*.pyc" "*.key" "*.php" 
 fileList=("/root/.history" "/root/.bash_history" "/root/.bashrc" \
           "/bin/netstat" "/bin/mount" "/bin/kill" \
           "/usr/sbin/useradd" "/usr/sbin/adduser" \
+          "/etc/fstab" "/dev/pts" "/dev/shm" \
+          "/etc/passwd" "/etc/ftpusers" "/etc/shadow" \
+          "/etc/security" "/etc/ssh" "/etc/sysconfig" \
+          "/etc/dhcpc" "/var/log" "/var/log/messages" \
+          "/var/log/wtmp" "/var/log/lastlog" \
+          "/bin/bash" "/usr/bin/curl" "/usr/bin/ftp" \
+          "/usr/bin/gcc" "/usr/local/bin" "/usr/bin/nmap" \
+          "/usr/bin/wget" "/usr/bin/sftp" "/usr/sbin/tcpd" \
+"/var/last" "/etc/network/interfaces" "/etc/apt/resource" \
+"/var/lock/subsys/local" "/bin/awk" "/var/yp/" \
+"/bin/basename" "/var/yp/Makefile" "/etc/issue" \
+"/etc/crontab" "/usr/bin/mrtg" "/boot" \
+"/dev/pts /proc" "/dev/shm" "/usr" \
+"/var /sbin/" "/usr/bin/telnet" "/usr/bin/wget" \
+"/dev/gpmctl" "/dev/hda5" "/dev/hda1" "/dev/hda3" \
+"/dev/hda2" "/dev/hda7" "/dev/shm" "/mnt/cdrom" \
+"/bin/sync" "/sbin/nologin" "/var/spool" "/var/adm" \
+"/var/lib/rpm" "/bin/false" "/dev/null" "/var/lib/pgsql" \
+"/etc/shadow" "/windows\system32\drivers\etc" \
+"/admin/pfsense" "/pentest/misc/Dravis" \
+"/usr/bin/ruby" "/dev/sda1" "/home/ramesh" "/etc/mail" \
+"/tmp/dir1" "/tmp/dir2" "/tmp/dir3" "/tmp/dir4" \
+"/etec/mall" "/home/users" "/dev/null" \
+"/etc/passwd" "/home/syslog" "/Linux/Linux-Unix/" \
+"/var/lib/gnats" "/var/lib/libuuid" "/var/run/avahi-daemon" \
+"/var/run/hplip" "/home/saned" "/var/run/pulse" \
+"/var/lib/gdm" "/usr/bin/passwd" "/usr/share/doc/nss_ldap-253/pam.d/passwd" \
+"/etc/pam.d/passwd" "/pattern/string" "/usr/home/htdocs/drag-and-drop/htdocs.php" \
+"/usr/home//htdocs/sms/publish/pages" "/sync.php" "/usr/home/htdocs/track/backup.php" \
+"/usr/home/htdocs/smstest/smstest.php" "/usr/home/htdocs/uploads.php "/usr/home/htdocs/017/backup.php" \
+"/usr/home/htdocs/drag-and-drop/htdocs.php" "/usr/home/htdocs/drag-and-drop" "/usr/home//htdocs/sms/publish/pages/" \
+"/usr/home/htdocs/track/" "/usr/home/htdocs/smstest/" "/usr/home/htdocs/" "/usr/home/htdocs/" \
+"/usr/lpp/OV/bin/opcmon" "/sys/class/thermal/" "/etc/ssh/sshd_config" "/etc/sysconfig/clock"  \
+"/var/lib/mysql/bug" "/var/log/acpid" "/var/log/audit/" "/var/log/wtmp" "/var/log/spooler" \
+"/var/log/httpd/" "/tmp/test /mnt/out" "/etc/redhat-release" "/usr/local/apache2/bin/apachectl" \
+"/etc/sysconfig/network" "/public/private" "/root/bin/backup" "/proc/sys/kernel/sysrq /proc/sysrq-trigger" \
+"/dev/sdb /logical/physical /root/temp" "/var/spool/anacron" "/etc/anacrontab" \
+"/usr/bin/mysqlaccess /usr/bin/mysqldata" "/usr/bin/mysqlperm" "/usr/bin/perl" "/usr/bin/mysqladmin" \
+"/opt/lampp/lampp /etc/profile" "/buffers/cache" "/bin/vi" "/usr/local/sbin/sshd" "/oracle/bin/tns1snr" \
+"/va/log/sa/sa /usr/lib/sadcs" "/etc/rc.d/init.d/sysstat" "/etc/rc.d" "/etc/rc.d/init.d" \
+"/etc/rc.d/rc3.d/S01sysstat" "/usr/local/lib/sa/sa1" "/usr/local/lib/sa/sa2" "/var/log/sa/sa10" \
+"/var/log/sa/sa23" "/opt/omni/lbin" "/usr/kbos/bin" "/usr/local/sbin" "/opt/omni/lbin" \
           "/bin/chgrp" "/usr/sbin/userdel" "/usr/sbin/usermod" "/usr/sbin/visudo" \
           "/usr/sbin/tcpdump" "/usr/sbin/service" "/sbin/reboot" "/sbin/shutdown" \
           "/usr/sbin/mysqld" "/usr/sbin/dmidecode" "/usr/sbin/chroot" \
