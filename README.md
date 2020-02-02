@@ -1,15 +1,14 @@
 # JKbobesponja
 
-We are $Bloody Shadow A.N.S#
+We are $ Bloody Shadow A.N.S #
 
-We did this project thinking that we have to remain anonymous and also make the use we want.
+We did this project thinking about staying anonymous and also making the use we want.
 
 With this tool you can send messages to other people, with the email address you want.
 
-The messages are encrypted and are also in the Tor network, in P2P.
+The messages are encrypted from the Tor network, in P2P
 
 We rely on the mail of secmail.pro
-
 
 To execute the code;
 
