@@ -12,8 +12,9 @@ We rely on the mail of secmail.pro
 
 To execute the code;
 
-chmod + x *
-bash sendmail.sh
+1ª chmod + x *
+2ª bash sendmail.sh
+3ª bash MailTOR.sh
 
 
 Those who did the project, we are not responsible for anything.
