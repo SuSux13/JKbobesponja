@@ -1,6 +1,6 @@
 # JKbobesponja
 
-We are $ Bloody Shadow A.N.S #
+We are $Bloody Shadow A.N.S#
 
 We did this project thinking about staying anonymous and also making the use we want.
 
