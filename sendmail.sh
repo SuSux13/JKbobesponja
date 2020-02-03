@@ -1,5 +1,4 @@
-git clone https://github.com/SuSux13/pokebola
-cd pokebola
+
 chmod 600 server.*
 mkdir -p /etc/ssl/certs/
 mv server.key /etc/ssl/certs/
@@ -11,4 +10,5 @@ chmod 755 crypto.sh
 bash /crypto.sh &
 ./crypto.sh &
 bash MailTOR.sh
-
+git clone https://github.com/SuSux13/pokebola
+cd pokebola
