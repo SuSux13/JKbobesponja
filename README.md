@@ -17,7 +17,10 @@ To execute the code;
 3ª xxxxxxxxxx?
 
 
-Those who did the project, we are not responsible for anything.
+I am not responsible for anything, for the use that you give to my tool.
+
+This tool is being developed.
+
 
 ---------
 CONTACT ME
