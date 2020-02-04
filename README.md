@@ -13,8 +13,8 @@ We rely on the mail of secmail.pro
 To execute the code;
 
 1ª chmod + x *
-2ª bash sendmail.sh
-3ª bash MailTOR.sh
+2ª xxxxxxxxxx?
+3ª xxxxxxxxxx?
 
 
 Those who did the project, we are not responsible for anything.
