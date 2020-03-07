@@ -13,8 +13,8 @@ We rely on the mail of secmail.pro
 To execute the code;
 
 1ª chmod + x *
-2ª xxxxxxxxxx?
-3ª xxxxxxxxxx?
+2ª bash secmail.sh
+3ª ./crypto.sh
 
 
 I am not responsible for anything, for the use that you give to my tool.
