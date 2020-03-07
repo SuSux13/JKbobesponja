@@ -13,7 +13,7 @@ We rely on the mail of secmail.pro
 To execute the code;
 
 1ª chmod + x *
-2ª bash secmail.sh
+2ª bash sendmail.sh
 3ª ./crypto.sh
 
 
